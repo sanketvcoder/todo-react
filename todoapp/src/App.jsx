@@ -1,6 +1,5 @@
 import react from 'react'
 import Navbar from './Components/Navbar/Navbar'
-import Footer from './Components/Footer/Footer'
 import Todo from './Components/Todo/Todo'
 
 
@@ -10,7 +9,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <Todo/>
-      <Footer/>
+  
     </div>
   )
 }
